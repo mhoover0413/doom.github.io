@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<title>DOOM's Website</title>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <div id="content">
+    <div id="headerBox">
+      <h1>The Website of DOOM!</h1>
+    </div>
+    <div id="smallBox">
+      <h4>Text<h4>
+    </div>
+    <div id="linksTopBox">
+      <b>
+        <a href="index.html">Home</a> |
+        <a href="game.html">Game</a> |
+        <a href="#">Bannana</a> |
+        <a href="#">Trains</a> |
+        <a href="#">Gaming</a> |
+        <a href="#">Youtube</a>
+      </b>
+    </div>
+    <div id="paraBoxes">
+      <div class="paraBox">
+        <h3>Home</h3>
+        <p>This is my website. The text editor that made this was Atom, and was made in class.</p>
+      </div>
+      <div class="paraBox">
+        <h3>Game</h3>
+        <p>This is my game. This game was made in RPG maker and was developed during time in class.</p>
+      </div>
+      <div class="paraBox">
+        <h3>Bannana</h3>
+        <p>This is my Favorite Thing #1.</p>
+      </div>
+      <div class="paraBox">
+        <h3>Trains</h3>
+        <p>This is my Favorite Thing #2.</p>
+      </div>
+      <div class="paraBox">
+        <h3>Gaming</h3>
+        <p>This is my Favorite Thing #3.</p>
+      </div>
+      <div class="paraBox">
+        <h3>Youtube</h3>
+        <p>This is my Favorite Thing #4.</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" defer>
+    var welcomePhrase = [
+      'Subscribe to PewDiePie or die',
+      'Fortnite is gud i guess',
+      'Boomer es gordo!',
+      'Minecraftable Moment....',
+      'Brain is in pain',
+      'Crying Slowly but not at all',
+      'Life is worthless but live',
+      'Help Im in this guys basement i broke his code but he wont let me out please help he wont let me out',
+      'CobbleStone Crafting TABLE',
+      'Yea fortnite we bout to get down',
+      'Something spunky!',
+      'Brain Damage Inbound!',
+      'Im still trapped help pleee!',
+      'Smash like moment inbound!',
+      'www.youtube.com/rifty',
+      'Subtext',
+      'Breathing currently',
+      '100 different types of animals!',
+      'Why..... just why',
+      'RepeatRepeatRepeatRepeat',
+      'Collect all 8 pages!',
+      'RUN',
+      'DOOM isnt really that scary',
+      'Dont wear your mask',
+      'Sorry I will fix the broken code and lock the basement door again',
+      'How did you find this?',
+      'Made by a stupid person!',
+      'Who said programming wasnt fun?',
+      'Adding swords soon!',
+      'I have to fix the black background',
+      'Click three times to fly!',
+      'Im trying pleaaaaaaase',
+      'My email is brainaintworking@gmail.com (dont actually email this person its not me)',
+      '0010101010111010010101010100101',
+      'Im a kid!'
+
+    ];
+    var randomNumber = Math.random();
+    randomNumber = randomNumber * welcomePhrase.length
+    randomNumber = Math.floor(randomNumber)
+    var header = document.getElementById('smallBox');
+    header.innerHTML = "<h4>" + welcomePhrase[randomNumber] + "</h4>"
+  </script>
+</body>
+
+</html>

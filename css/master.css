@@ -1,0 +1,40 @@
+
+div {
+  font-family: cursive;
+  color:#FFFFFF;
+  background-color: black;
+}
+#content {
+  padding: 10px;
+}
+
+#headerBox {
+  text-align: center;
+    color:#FFFFFF;
+
+}
+
+#smallBox {
+  text-align: center
+}
+
+#linksTopBox {
+  text-align: center;
+    color:#FFFFFF;
+}
+
+.button1 {
+    color:#FFFFFF;
+}
+
+#paraBoxes {
+  text-align: center;
+    color:#FFFFFF;
+}
+
+
+.paraBox {
+  color: black;
+  margin: 5px;
+    color:#FFFFFF;
+}
